@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-image: url(https://images.unsplash.com/photo-1533130061792-64b345e4a833?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    border-image: fill 0 liner-gradient(#0001, #000);
+}
+
+.box1, .box2 {
+    height: 90%;
+    width: 25%;
+    border: 1px solid rgb(179, 155, 155);
+    border-radius: 20px;
+    position: relative;
+    background-color: rgba(142, 142, 182, 0.433);
+   
+}
+
+.button1, .button2 {
+   
+    position: absolute;
+    bottom: 99px; 
+    left: 50%;
+    transform: translateX(-50%);
+    height: 6%;
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 40px;
+   
+   
+   
+    
+}
+
+.button1 .circle1{
+    height: 100%;
+    width: 27%;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: red;
+
+    
+    
+}
+.button2 .circle2{
+    height: 100%;
+    width: 27%;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: yellow;
+    
+}
+
+.button1 span, .button2 span {
+    margin-left: 5px;
+  
+}
+
+
